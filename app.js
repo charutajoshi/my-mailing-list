@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 mailchimp.setConfig({
-  apiKey: "",
+  apiKey: "1c4cda3c81bed503ad58ef1dda087345-us9",
   server: "us9"
 });
 
