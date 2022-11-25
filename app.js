@@ -55,7 +55,7 @@ async function addMember(subscribingUser) {
   return response;
 };
 
-app.listen(port, function() {
+app.listen(process.env.PORT || port, function() {
   console.log("Started running server on port " + port);
 });
 
